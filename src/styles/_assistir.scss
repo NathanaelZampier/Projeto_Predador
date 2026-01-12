@@ -1,0 +1,29 @@
+@use 'variaveis';
+
+.ondeassistir {
+    padding: 2vw 5.6vw;
+    background-color: variaveis.$corDeFundo;
+
+    h2 {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 600px;
+        margin-top: 44px;
+    
+    
+        &__item {
+            img {
+                max-width: 350px;
+                width: 350px;
+                height: 350px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

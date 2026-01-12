@@ -1,0 +1,37 @@
+@use 'variaveis';
+
+.hero {
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url(../../src/images/Predador\ das\ Sombras.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-bottom: 60px;
+    
+    
+    &__content{
+        max-width: 640px;
+        margin-left: 320px;
+        
+
+        p {
+                font-family: "Cinzel", serif;
+            }
+
+        
+        &__branding{
+            max-width: 320px;
+
+            img {
+                max-width: 640px;
+            }
+        }
+
+        .title{
+            margin-top: 20px;
+            text-align: center;
+            max-width: 100%;
+        }
+    }
+}
+
